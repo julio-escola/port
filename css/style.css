@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+    --azul-escuro: #0D1B2A;
+    --azul-medio: #1B263B;
+    --azul-claro: #415A77;
+    --branco: #E0E1DD;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+h1, h2, h5 {
+    color: var(--azul-claro);
+}
+
+a {
+    color: var(--branco);
+}
+
+a:hover {
+    color: var(--azul-claro);
+}
+
+.btn-outline-primary {
+    border-color: var(--azul-claro);
+    color: var(--azul-claro);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--azul-claro);
+    color: var(--branco);
+}
+
+.btn-primary {
+    background-color: var(--azul-claro);
+    border: none;
+}
+
+.card {
+    background-color: var(--azul-medio);
+    border: none;
+}
+
+.card-title {
+    color: var(--branco);
+}
+
+.modal-content {
+    background-color: var(--azul-medio);
+    color: var(--branco);
+}
+
+footer a {
+    color: var(--branco);
+}
+
+.areasdeatuacao__lista {
+    display: flex;
+    flex-wrap: wrap;
+} .areasdeatuacao__item {
+    color: var(--principal-fonte-cor-secundaria);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+} .html {
+    background: var(--principal-html-cor-fundo);
+    border: var(--principal-html-cor-borda) 1px solid;
+} .css {
+    background: var(--principal-css-cor-fundo);
+    border: var(--principal-css-cor-borda) 1px solid;
+} .javascript {
+    background: var(--principal-javascript-cor-fundo);
+    border: var(--principal-javascript-cor-borda) 1px solid;
+} .desing {
+    background: var(--principal-desing-cor-fundo);
+    border: var(--principal-desing-cor-borda) 1px solid;
+} .appdesk {
+    background: var(--principal-appdesk-cor-fundo);
+    border: var(--principal-appdesk-cor-borda) 1px solid;
+} .appmobl {
+    background: var(--principal-appmobl-cor-fundo);
+    border: var(--principal-appmobl-cor-borda) 1px solid;
+} .areasdeatuacao__item--img {
+    width: 15px;
+    height: 15px;
+}
+
+.card-text {
+    color: #E0E1DD;
+}
